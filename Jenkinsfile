@@ -24,7 +24,6 @@ pipeline{
                     pwd
                     echo "Hello "
                     whoami
-                    ls -la
                 '''
             }
         }
