@@ -12,7 +12,6 @@ pipeline{
         }
         stage('sonarscan'){
             steps{
-                sh 'sudo su'
                 sh 'sonar-scanner'
             }
         }
